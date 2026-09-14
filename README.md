@@ -2,6 +2,10 @@
 
 A modern, premium e-commerce web application built with **React + Vite**, featuring product browsing, search, categories, authentication, cart management, checkout, and responsive UI.
 
+## 🌐 Live Demo
+
+[Visit Shopora](https://e-commerce-platform-nu-eight.vercel.app/)
+
 ## ✨ Features
 
 - 🛍️ Browse products
