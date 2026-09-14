@@ -1,109 +1,72 @@
-# Shopora 🛍️
+# InkSpace ✍️
 
-A modern, premium e-commerce web application built with **React + Vite**, featuring product browsing, search, categories, authentication, cart management, checkout, and responsive UI.
+> A modern, minimal blogging platform for stories, ideas, and perspectives.
 
-## 🌐 Live Demo
-
-[Visit Shopora](https://e-commerce-platform-nu-eight.vercel.app/)
+**InkSpace** is a responsive blogging website built with **React + Vite**, featuring a clean editorial-style interface where users can explore stories, browse categories, read articles, and create an account.
 
 ## ✨ Features
 
-- 🛍️ Browse products
-- 🔎 Product search
-- 🗂️ Category-based shopping
-- 💰 Discount & offer section
-- ⭐ Product ratings and reviews
-- 🖼️ Product image gallery
-- 🛒 Add to cart
-- ➕➖ Cart quantity management
-- 💳 Checkout experience
-- 👤 User registration & login
-- 💾 LocalStorage-based authentication
-- 📦 Order summary
-- 🌙 Dark / Light theme
-- 📱 Responsive design
-- 📞 Contact page
-- ❌ Custom 404 page
+* 🏠 Modern responsive homepage
+* 📚 Browse and read stories
+* 🗂️ Category-based browsing
+* 📖 Dynamic individual story pages
+* 🔐 Login & registration
+* 👋 User session handling
+* 🚪 Logout functionality
+* 📄 About & Contact pages
+* ❌ Custom 404 page
+* 📱 Fully responsive design
 
 ## 🛠️ Tech Stack
 
-- **React**
-- **Vite**
-- **React Router**
-- **JavaScript**
-- **CSS / Inline Styling**
-- **DummyJSON API**
-- **LocalStorage**
-
-## 📡 API
-
-Shopora currently uses the **DummyJSON API** for product data.
-
-Main endpoints include:
-
-- Products
-- Product search
-- Categories
-- Category products
-- Individual product details
+* **React 19**
+* **Vite 8**
+* **React Router 7**
+* **JavaScript**
+* **CSS**
+* **LocalStorage**
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-
 ```bash
-git clone https://github.com/aakib-0101/shopora-ecommerce.git
-2. Go into the project
-cd shopora-ecommerce
-3. Install dependencies
+git clone <your-repository-url>
+cd blogWebsite
 npm install
-4. Start the development server
 npm run dev
+```
 
-Then open the local URL shown in your terminal.
+Then open the local URL provided by Vite.
 
-📁 Project Structure
-src/
-├── components/
-│   └── Navbar.jsx
-│
-├── pages/
-│   ├── Home.jsx
-│   ├── Shop.jsx
-│   ├── CategoryProducts.jsx
-│   ├── ProductDetail.jsx
-│   ├── Cart.jsx
-│   ├── Checkout.jsx
-│   ├── Profile.jsx
-│   ├── Login.jsx
-│   ├── Register.jsx
-│   ├── Contact.jsx
-│   └── NotFound.jsx
-│
-├── App.jsx
-├── index.css
-└── main.jsx
-🔐 Authentication
+## 📜 Available Scripts
 
-For the current frontend version, registration and login are handled using browser LocalStorage.
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start development server |
+| `npm run build`   | Create production build  |
+| `npm run preview` | Preview production build |
+| `npm run lint`    | Run ESLint               |
 
-This is intended for demonstration/development purposes and is not a production authentication system.
+## 📂 Project Structure
 
-🛒 Cart
+```text
+blogWebsite/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── eslint.config.js
+```
 
-Cart data is persisted in LocalStorage, allowing products and quantities to remain available after refreshing the page.
+## 👨‍💻 Author
 
-📌 Future Improvements
-Backend integration
-Real authentication
-Database
-Payment gateway
-Order history
-Wishlist
-Admin dashboard
-Product reviews
-User profile editing
-Production-grade security
-👨‍💻 Author
+**Md Aakib**
 
-Aakib
+⭐ If you like the project, consider giving the repository a star!
